@@ -46,7 +46,6 @@ repos:
       - id: isort
         entry: isort
         args:
-          - --profile=black 
           - --float-to-top
 
   - repo: https://github.com/nbQA-dev/nbQA
@@ -79,8 +78,7 @@ repos:
         types_or: [jupyter, markdown]
         additional_dependencies: [isort]
         args:
-          - --profile=black 
-          - --float-to-top 
+          - --float-to-top
 
   - repo: https://github.com/codespell-project/codespell
     rev: v2.3.0
